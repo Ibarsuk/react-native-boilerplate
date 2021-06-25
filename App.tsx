@@ -12,7 +12,7 @@ import React from 'react';
 import * as RN from 'react-native';
 
 const App = () => {
-  return <RN.View style={s()}></RN.View>;
+  return <></>;
 };
 
 export default App;
