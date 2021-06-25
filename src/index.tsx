@@ -8,11 +8,17 @@
  * @format
  */
 
+import 'react-native-gesture-handler';
 import React from 'react';
-import * as RN from 'react-native';
+import AppNavigation from '@Navigation';
+import {NavigationContainer} from '@react-navigation/native';
 
 const App = () => {
-  return <></>;
+  return (
+    <NavigationContainer>
+      <AppNavigation />
+    </NavigationContainer>
+  );
 };
 
 export default App;

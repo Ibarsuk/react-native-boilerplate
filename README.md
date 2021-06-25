@@ -28,6 +28,10 @@ Environment set by react-native-config lib. By default you can use 2 schemas - d
 
 ```
     src/
+        - Assets/
+            - Svg
+            - Images
+            - Fonts
         - Components/ - common components for all app
             - Component1/
                 - Views? - inherit components only to current component
@@ -53,6 +57,7 @@ Environment set by react-native-config lib. By default you can use 2 schemas - d
                 index.ts
                 navigationOptions.ts
             index.ts
+            paths.ts - paths screens for navigators
         - Redux/
             - Middlewares/
                 - Flow1
@@ -85,8 +90,8 @@ Environment set by react-native-config lib. By default you can use 2 schemas - d
                 index.ts - Base ApiService class
             Const.ts
             Styles.ts - colors, configure styles
-        .env
-        .env.prod
-        config.ts
+        .env - secure env params
+        .env.prod - secure env params for production
+        config.ts - config properties
         index.ts - enter file
 ```
